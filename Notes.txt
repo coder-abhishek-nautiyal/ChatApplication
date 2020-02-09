@@ -1,0 +1,24 @@
+mkdir client 
+cd client 
+create-react-app ./   --./ wil create inside the client directory 
+cd..
+mkdir server
+cd server 
+npm init -y   initialize package.json 
+npm install --save cors nodemon express socket.io 
+
+below dependency to be installed in client folder 
+npm install --save react-router socket.io-client react-scroll-to-bottom react-emoji query-string 
+
+nodemon run server continuously -- 
+
+open package.json of server folder and add in script 
+"start":"nodemon index.js",
+
+delete existing src folder
+create new src folder and two files index.js and App.js 
+
+npm install --save react-router-dom
+
+create index.js in server folder 
+

@@ -1,0 +1,18 @@
+first we clone repository that is from github to local 
+git clone https://github.com/abhinauts89/ChatApplication.git
+
+we get that folder which is our project name on local 
+
+
+right click where your project is --
+click on get GitBash here 
+
+git init 
+
+git add .
+
+git commit -m "First Commit"
+
+git remote add origin https://github.com/abhinauts89/ChatApplication.git
+
+git push -u origin master 
