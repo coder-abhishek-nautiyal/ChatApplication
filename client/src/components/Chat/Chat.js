@@ -13,8 +13,9 @@ const Chat=({location})=>{
     const [room,setRoom]=useState('');
     const [message,setMessage]=useState('');
     const [messages,setMessages]=useState([]);
-    const ENDPOINT='localhost:5000';
+    //const ENDPOINT='localhost:5000';
    // const ENDPOINT='https://chatapplication-42f75.firebaseapp.com/';
+   const ENDPOINT='https://chat-react-application-2020.herokuapp.com/';
     useEffect(()=>{
         const {name,room}=queryString.parse(location.search);
 

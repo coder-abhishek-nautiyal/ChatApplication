@@ -22,3 +22,13 @@ npm install --save react-router-dom
 
 create index.js in server folder 
 
+
+to deploy to hereko -- 
+install heroku cli and follow below commands
+hereko login 
+git init
+heroku git:remote -a chat-react-application-2020
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master 
